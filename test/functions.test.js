@@ -1,6 +1,15 @@
 // IMPORT MODULES under test here:
 import { 
-    myFunction,
+    addExclamationPoints,
+    multiplyBySeven,
+    multiplyBy12ThenHalve,
+    divideThenMultiply,
+    returnAsAnArray,
+    returnAsAString,
+    makeLuckyGreeting,
+    getSecondItem,
+    getLastItem,
+    getRandomNumber
 } from '../functions.js';
 
 const { test, skip } = QUnit;
@@ -8,7 +17,7 @@ const { test, skip } = QUnit;
 test('this test should pass', (expect) => {
     const expected = true;
 
-    const actual = myFunction();
+    const actual = addExclamationPoints();
 
     expect.equal(actual, expected);
 });

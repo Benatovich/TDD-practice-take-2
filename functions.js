@@ -12,10 +12,15 @@ Output:
 
 */
 
+function addExclamationPoints(someString) {
+    someString + '!!!';
+}
+
 export function addExclamationPoints() {
     return true;
 }
 
+console.log(addExclamationPoints('bunny'));
 // This function should take in a number and multiply it by seven
 
 /* 
